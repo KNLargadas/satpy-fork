@@ -137,7 +137,7 @@ from satpy.readers.hrit_jma import mjd2datetime64
 from satpy.utils import datetime64_to_pydatetime
 import satpy.readers.core._geos_area as geos_area
 
-import satpy.readers.gms.gms5_vissr_navigation as nav_shared
+import satpy.readers.gms.gms_vissr_navigation as nav_shared
 import satpy.readers.gms.gms1_4_vissr_format as fmt
 
 
