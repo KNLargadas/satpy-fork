@@ -110,16 +110,10 @@ To turn off masking, set ``mask_space=False`` upon scene creation:
 
     filenames = glob.glob("VS*")
     scene = satpy.Scene(filenames,
-                        reader="gms5-vissr_l1b",
+                        reader="gms1-4-vissr_l1b",
                         reader_kwargs={"mask_space": False})
     scene.load(["VIS"])
 
-
-Metadata
---------
-
-Dataset attributes include metadata such as time and orbital parameters,
-see :ref:`dataset_metadata`.
 
 Partial Scans
 -------------
